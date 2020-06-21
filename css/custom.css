@@ -1,0 +1,108 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.big-logo {
+	margin-bottom:-40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+@media (max-width: 480px) {
+  .big-logo img {
+    width: 80%;
+  }
+}
+
+.logo {
+	width: 60%;
+	max-width: 400px;
+}
+
+.page-title-4 {
+  height: 140px;
+}
+
+section, footer {
+padding: 40px 0;
+}	
+
+ul.ul-default {
+	padding: initial;
+	list-style: initial;
+	margin-left: 20px;
+}
+
+ul.ul-default > li > ul {
+	padding: initial;
+	list-style: circle;
+    margin-left: 40px;
+}
+
+nav.fixed.scrolled {
+  visibility: invisible;
+  opacity: 0;
+}
+
+p {
+	margin-bottom: 8px;
+}
+
+.btn {
+	margin-bottom: 2px;
+}
+
+.headshot {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	max-width:80%;
+}
+
+@media (max-width: 990px) {
+	.v-align-children {
+		display: flex;
+	}
+}
+
+@media all and (max-width: 767px) {
+.feature-3 .left {
+	width: 25%;
+}
+
+.feature-4 .left {
+	width: 25%;
+}
+
+.feature-3 .right {
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+.feature-4 .right {
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+
+}
+
+@media all and (min-width: 768px) {
+.feature-3 .left {
+	width: 25%;
+}
+
+.feature-4 .left {
+	width: 25%;
+}
+
+.feature-3 .right {
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+.feature-4 .right {
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+
+}
