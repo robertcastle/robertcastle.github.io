@@ -106,3 +106,7 @@ p {
 }
 
 }
+
+.logo-carousel img {
+  max-height: 100px;
+}
