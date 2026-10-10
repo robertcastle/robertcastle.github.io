@@ -1,20 +1,107 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
-.big-logo {
-	margin-bottom:-40px;
-	padding-top: 10px;
-	padding-left: 10px;
+/* Body text: larger and more readable than the theme default */
+body {
+  font-size: 15px;
+  line-height: 26px;
 }
 
-@media (max-width: 480px) {
-  .big-logo img {
-    width: 80%;
+@media all and (max-width: 767px) {
+  /* Cancel the theme's 12px shrink on phones; 15px is the readable minimum */
+  p {
+    font-size: 15px;
   }
 }
 
-.logo {
-	width: 60%;
-	max-width: 400px;
+h1,
+.h1 {
+  font-size: 38px;
+  line-height: 42px;
+}
+h1.large {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 100;
+}
+@media all and (max-width: 990px) {
+  h1.large {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+@media all and (max-width: 767px) {
+  h1,
+  h1.large,
+  .h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.vnu {
+  display: flex;
+  align-items: center;  /* vertically center logo and text */
+  gap: 0.5em;           /* space between logo and text (replaces whitespace/margins) */
+}
+
+.big-logo {
+  position: relative;   /* keeps the logo clickable above the nav bar */
+  /*z-index: 2;*/
+  padding: 6px 0 0 15px;
+  margin-bottom: -40px;
+}
+
+nav .big-logo img.logo {
+  height: 110px;
+  width: auto;
+  max-width: none;
+  max-height: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  font-weight: 800;
+  white-space: nowrap;
+  color: #323232;              /* dark grey */
+  text-decoration: none;       /* remove the default link underline */  
+}
+
+.big-logo a,
+.big-logo a:link,
+.big-logo a:visited,
+.big-logo a:hover,
+.big-logo a:active {
+  color: #323232;
+  text-decoration: none;
 }
 
 .page-title-4 {
@@ -23,7 +110,7 @@
 
 section, footer {
 padding: 40px 0;
-}	
+}
 
 ul.ul-default {
 	padding: initial;
@@ -38,7 +125,7 @@ ul.ul-default > li > ul {
 }
 
 nav.fixed.scrolled {
-  visibility: invisible;
+  visibility: hidden;
   opacity: 0;
 }
 
@@ -54,7 +141,7 @@ p {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-	max-width:80%;
+	max-width:70%;
 }
 
 @media (max-width: 990px) {

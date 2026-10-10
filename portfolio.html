@@ -2,17 +2,30 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Portfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-		<link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/theme-fire.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		
+		<title>Portfolio | Robert Castle</title>
+
+		<meta name="description" content="Portfolio for Robert Castle">
+		<link rel="canonical" href="https://robertcastle.com/">
+
+		<!-- Stylesheets -->
+		<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/theme-fire.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/custom.css" rel="stylesheet" type="text/css" media="all">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Raleway:wght@100;300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700" rel="stylesheet" type="text/css">
-		<link href="css/font-roboto.css" rel="stylesheet" type="text/css">
+		<link href="/css/font-roboto.css" rel="stylesheet" type="text/css">
+
+		<!-- Icons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48x48.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
@@ -22,9 +35,10 @@
 		<div class="nav-container">
 			<nav>
 				<div class="left big-logo">
-					<a href="index.html">
+					<a href="/">
 					<div class="vnu" >
-						<img class="logo logo-dark" title="Robert Castle" src="img/logo.png">
+						<img class="logo logo-dark" title="Robert Castle" src="/img/logo.png" alt="">
+						<span class="logo-text">Robert Castle</span>
 					</div>
 					</a>
 				</div>
@@ -36,30 +50,30 @@
 						<div class="module left">
 							<ul class="menu">
 								<li>
-									<a href="index.html" target="_self">Home</a>
+									<a href="/" target="_self">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" target="_self">Portfolio<br></a>
+									<a href="/portfolio.html" target="_self">Portfolio</a>
 								</li>
 								<li class="has-dropdown toggle-sub">
 									<a href="#">Publications</a>
 									<ul>
 										<li>
-											<a href="thesis.html" target="_self">Thesis</a>
+											<a href="/thesis.html" target="_self">Thesis</a>
 										</li>
 										<li>
-											<a href="conference-papers.html" target="_self">Conference papers<br></a>
+											<a href="/conference-papers.html" target="_self">Conference papers</a>
 										</li>
 										<li>
-											<a href="journal-articles.html" target="_self">Journal Articles<br></a>
+											<a href="/journal-articles.html" target="_self">Journal Articles</a>
 										</li>
 									</ul>
 								</li>
 								<li>
-									<a href="software.html" target="_self">Software<br></a>
+									<a href="/software.html" target="_self">Software</a>
 								</li>
 								<li class="vpf">
-									<a href="contact.html" target="_self">Contact</a>
+									<a href="/contact.html" target="_self">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -73,7 +87,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h3 class="mb0 bold">Portfolio</h3>
+							<h1 class="mb0 bold">Portfolio</h1>
 						</div>
 					</div>
 				</div>
@@ -83,9 +97,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 text-center">
-							<h3 class="uppercase color-primary mb40 mb-xs-24">Apple 2018-2025</h3>
+							<h2 class="bold color-primary mb40 mb-xs-24">Apple 2018-2025</h2>
 							<p class="lead">
-								Publically released work.
+								Publicly released work.
 							</p>
 						</div>
 					</div>
@@ -98,7 +112,13 @@
 						<div class="col-md-4 col-sm-5 mb-xs-24">
 							<h3>Hand tracking for Vision Pro</h3>
 							<p>
-								Part of the team responsible for shipping hand tracking on Vision Pro, from early protoyping, through development, to release and beyond. I worked on ground truth reconstruction, multi camera calibration for data captures, headset simulation, dataset analysis, synthetic data generation and inverse kinematics, a multitude of tools for the data ingestion pipeline, and calibration validation. For visonOS 26, I worked on adaptive hand tracking processing rates, and seamless switching for hand enrollment data.
+								Part of the team responsible for shipping hand tracking on Vision Pro, 
+								from early prototyping, through development, to release and beyond. I 
+								worked on ground truth reconstruction, multi camera calibration for data 
+								captures, headset simulation, dataset analysis, synthetic data generation 
+								and inverse kinematics, a multitude of tools for the data ingestion pipeline, 
+								and calibration validation. For visionOS 26, I worked on adaptive hand 
+								tracking processing rates, and seamless switching for hand enrollment data.
 							</p>
 						</div>
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
@@ -116,7 +136,7 @@
 						<div class="col-md-4 col-sm-5 mb-xs-24 col-md-push-7 col-sm-push-6">
 							<h3>Hand tracking for iOS</h3>
 							<p>
-								Brought hand tracking to iOS 18 for iPhone and iPad as part of the Switch Control accessibility feature. Allows users to control their devices with pinches.</br>
+								Brought hand tracking to iOS 18 for iPhone and iPad as part of the Switch Control accessibility feature. Allows users to control their devices with pinches.<br>
 								<a href="https://www.apple.com/uk/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking/">Switch Control Announcement</a>
 							</p>							
 						</div>
@@ -133,7 +153,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 text-center">
-							<h3 class="uppercase color-primary mb40 mb-xs-24">Contracting 2011-2018</h3>
+							<h2 class="bold color-primary mb40 mb-xs-24">Contracting 2011-2018</h2>
 							<p class="lead">
 								Below is a sample of my contracting work between 2011-2018.
 							</p>
@@ -172,7 +192,7 @@
 							</p>							
 						</div>					
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center col-md-pull-5 col-sm-pull-6">
-							<img class="cast-shadow" alt="Screenshot" src="img/emersio.jpg">
+							<img class="cast-shadow" alt="Screenshot" src="/img/emersio.jpg">
 						</div>
 					</div>					
 				</div>
@@ -188,7 +208,7 @@
 							</p>
 						</div>
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
-							<img class="cast-shadow" alt="Screenshot" src="img/zippy.jpg">
+							<img class="cast-shadow" alt="Screenshot" src="/img/zippy.jpg">
  						</div>
 					</div>
 				</div>		
@@ -200,11 +220,11 @@
 						<div class="col-md-4 col-sm-5 mb-xs-24 col-md-push-7 col-sm-push-6">
 							<h3>Prototype AR Headset development for DAQRI</h3>
 							<p>
-								I worked on a variety of SLAM visualization tools, and Unity based AR software development for a protoype headset.
+								I worked on a variety of SLAM visualization tools, and Unity based AR software development for a prototype headset.
 							</p>
 						</div>
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center col-md-pull-5 col-sm-pull-6">
-							<img class="cast-shadow" alt="Screenshot" src="img/daqri.jpg">
+							<img class="cast-shadow" alt="Screenshot" src="/img/daqri.jpg">
 						</div>
 					</div>					
 				</div>
@@ -216,12 +236,18 @@
 						<div class="col-md-4 col-sm-5 mb-xs-24">
 							<h3>Audi e-tron AR apps for Somo Marketing</h3>
 							<p>
-								Developed three Unity based iPad apps that utilized AR features using Metaio's framework. The apps were used for a pop up experience showcasing the Audi e-tron. 
-								One app allowed you to customize the car based on the available options and view it against different backdrops. The second app allowed the user to point an iPad at a large e-tron logo and view an AR exploded view of the engine. The third used model regcognition to detect the front of an e-tron and show an AR animation of how to charge the car.
+								Developed three Unity based iPad apps that utilized AR features using 
+								Metaio's framework. The apps were used for a pop up experience showcasing 
+								the Audi e-tron. 
+								One app allowed you to customize the car based on the available options 
+								and view it against different backdrops. The second app allowed the user 
+								to point an iPad at a large e-tron logo and view an AR exploded view of 
+								the engine. The third used model recognition to detect the front of an 
+								e-tron and show an AR animation of how to charge the car.
 							</p>
 						</div>
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
-							<img class="cast-shadow" alt="Screenshot" src="img/etron.jpg">
+							<img class="cast-shadow" alt="Screenshot" src="/img/etron.jpg">
 							</div>
 					</div>					
 				</div>
@@ -233,13 +259,17 @@
 						<div class="col-md-4 col-sm-5 mb-xs-24 col-md-push-7 col-sm-push-6">
 							<h3>My Little Pony AR App for Milo Creative</h3>
 							<p>
-								I developed a Unity based cross platform iOS and Android app that allowed users to scan AR codes and magazine pages using the Vuforia AR plugin to unlock levels and activities. The app was desigend to be modular to allow more levels to be quickly added using a palette of tools for creating different activities.
+								I developed a Unity based cross platform iOS and Android app that allowed 
+								users to scan AR codes and magazine pages using the Vuforia AR plugin to 
+								unlock levels and activities. The app was designed to be modular to allow 
+								more levels to be quickly added using a palette of tools for creating 
+								different activities.
 								<br>
 								My cool factor with my daughter went up immeasurably.
 							</p>
 						</div>
 						<div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center col-md-pull-5 col-sm-pull-6">
-							<img class="cast-shadow" alt="Screenshot" src="img/mlp.jpg">
+							<img class="cast-shadow" alt="Screenshot" src="/img/mlp.jpg">
  						</div>
 					</div>
 				</div>		
@@ -249,7 +279,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 text-center">
-							<h3 class="uppercase color-primary mb40 mb-xs-24">2d3 2009-2011</h3>
+							<h2 class="color-primary mb40 mb-xs-24">2d3 2009-2011</h2>
 						</div>
 					</div>
 				</div>
@@ -263,7 +293,7 @@
 							<p>
 								TagAR was a real-time markerless augmented reality system for Windows tablets.
 								<br>
-								I developed the successor to <a href="software.html#PTAMM">PTAMM</a> while at 2d3 Ltd. as part of an MOD funded project. TagAR contained a PTAMM core but had significant refactoring to the threading and graphics. TagAR ran at 30Hz on a Windows tablet with an Intel HD graphics card, and used Qt4 for the user interface and OpenSceneGraph for the 3D graphics. TagAR is a 2d3 Ltd. product.
+								I developed the successor to <a href="/software.html#PTAMM">PTAMM</a> while at 2d3 Ltd. as part of an MOD funded project. TagAR contained a PTAMM core but had significant refactoring to the threading and graphics. TagAR ran at 30Hz on a Windows tablet with an Intel HD graphics card, and used Qt4 for the user interface and OpenSceneGraph for the 3D graphics. TagAR is a 2d3 Ltd. product.
 								<br>
 								TagAR was demoed at the Home Office INSTINCT TD3 Conference and at HOSDB 2011.
 							</p>
@@ -280,20 +310,20 @@
 			<footer class="footer-2 bg-dark text-center-xs">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
-							<a href="#"><img class="image-xxs fade-half" alt="Pic" src="img/logo-light.png"></a>
+						<div class="col-sm-3">
+							<a href="/"><img class="image-xxs fade-half" alt="Home" src="/img/logo-light.png"></a>
 						</div>
 					
-						<div class="col-sm-4 text-center">
+						<div class="col-sm-6 text-center">
 							<span class="fade-half">
 								© Copyright 2026 Robert Castle - All Rights Reserved
 							</span>
 						</div>
-					
-						<div class="col-sm-4 text-right text-center-xs">
+
+						<div class="col-sm-3 text-right text-center-xs">
 							<ul class="list-inline social-list">
-								<li><a href="https://github.com/robertcastle" target="_self"><i class="fa fa-github-square"></i></a></li>
-								<li class="vpf"><a href="https://www.linkedin.com/in/drrobertcastle/" target="_self"><i class="fa fa-linkedin-square"></i></a></li>
+								<li><a href="https://github.com/robertcastle" rel="me" target="_self" aria-label="Robert Castle on GitHub"><i class="fa fa-github-square"></i></a></li>
+								<li class="vpf"><a href="https://www.linkedin.com/in/drrobertcastle/" rel="me" target="_self" aria-label="Robert Castle on LinkedIn"><i class="fa fa-linkedin-square"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -301,9 +331,9 @@
 			</footer>
 		</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/scripts.js"></script>
 	</body>
 </html>
 				

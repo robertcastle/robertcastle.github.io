@@ -2,17 +2,30 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Software</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-		<link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/theme-fire.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		
+		<title>Software | Robert Castle</title>
+		
+		<meta name="description" content="Software by Robert Castle">
+		<link rel="canonical" href="https://robertcastle.com/">
+
+		<!-- Stylesheets -->
+		<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/theme-fire.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/css/custom.css" rel="stylesheet" type="text/css" media="all">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Raleway:wght@100;300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700" rel="stylesheet" type="text/css">
-		<link href="css/font-roboto.css" rel="stylesheet" type="text/css">
+		<link href="/css/font-roboto.css" rel="stylesheet" type="text/css">
+
+		<!-- Icons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48x48.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
@@ -22,9 +35,10 @@
 		<div class="nav-container">
 			<nav>
 				<div class="left big-logo">
-					<a href="index.html">
+					<a href="/">
 					<div class="vnu" >
-						<img class="logo logo-dark" title="Robert Castle" src="img/logo.png">
+						<img class="logo logo-dark" title="Robert Castle" src="/img/logo.png" alt="">
+						<span class="logo-text">Robert Castle</span>
 					</div>
 					</a>
 				</div>
@@ -36,30 +50,30 @@
 						<div class="module left">
 							<ul class="menu">
 								<li>
-									<a href="index.html" target="_self">Home</a>
+									<a href="/" target="_self">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" target="_self">Portfolio<br></a>
+									<a href="/portfolio.html" target="_self">Portfolio</a>
 								</li>
 								<li class="has-dropdown toggle-sub">
 									<a href="#">Publications</a>
 									<ul>
 										<li>
-											<a href="thesis.html" target="_self">Thesis</a>
+											<a href="/thesis.html" target="_self">Thesis</a>
 										</li>
 										<li>
-											<a href="conference-papers.html" target="_self">Conference papers<br></a>
+											<a href="/conference-papers.html" target="_self">Conference papers</a>
 										</li>
 										<li>
-											<a href="journal-articles.html" target="_self">Journal Articles<br></a>
+											<a href="/journal-articles.html" target="_self">Journal Articles</a>
 										</li>
 									</ul>
 								</li>
 								<li>
-									<a href="software.html" target="_self">Software<br></a>
+									<a href="/software.html" target="_self">Software</a>
 								</li>
 								<li class="vpf">
-									<a href="contact.html" target="_self">Contact</a>
+									<a href="/contact.html" target="_self">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -74,7 +88,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h3 class="mb0 bold">Software</h3>
+							<h1 class="mb0 bold">Software</h1>
 						</div>
 					</div>
 				</div>
@@ -104,19 +118,24 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<h3 id="PTAMM" class="uppercase color-primary mb40 mb-xs-24">PTAMM</h3>						
+							<h2 id="PTAMM" class="bold color-primary mb40 mb-xs-24">PTAMM</h2>	
 							<p class="lead">
-								Parallel Tracking and Multiple Mapping (PTAMM) is a markerless augmented reality application. The system tracks natural features in real time, calculating their and the camera’s 3D location and pose. Using this 3D information augmented reality graphics can be overlaid on the video image. Multiple maps can be made throughout an environment, with each map holding it own AR. As the camera is moved from one mapped area to another, PTAMM automatically detects and switches to the relevant map.
+								Parallel Tracking and Multiple Mapping (PTAMM) is a markerless augmented reality 
+								application. The system tracks natural features in real time, calculating their and 
+								the camera’s 3D location and pose. Using this 3D information augmented reality 
+								graphics can be overlaid on the video image. Multiple maps can be made throughout an 
+								environment, with each map holding it own AR. As the camera is moved from one mapped 
+								area to another, PTAMM automatically detects and switches to the relevant map.
 								<br><br>
-								The source code comes with three simple games to demonstrate the potential of PTAMM, as well as detailed installation and usage instructions. See the video below for an overview of the software, and see the <a href="http://ewokrampage.wordpress.com/">blog</a> for the latest news, updates, and troubleshooting advice on PTAMM.
+								The source code comes with three simple games to demonstrate the potential of PTAMM, as well as detailed installation and usage instructions. See the video below for an overview of the software, and see the <a href="https://ewokrampage.wordpress.com/">blog</a> for the latest news, updates, and troubleshooting advice on PTAMM.
 								<br><br>
-								<a href="http://www.robots.ox.ac.uk/%7Ebob/software/index.html">Download</a> the PTAMM Source code for Mac, Linux and Windows from my research website at Oxford University.
+								<a href="https://www.robots.ox.ac.uk/%7Ebob/software/index.html">Download</a> the PTAMM Source code for Mac, Linux and Windows from my research website at Oxford University.
 								<br><br>
 								The software is free for academic use or a licence can be purchased from <a href="https://innovation.ox.ac.uk/">Oxford University Innovation</a> for commercial use.
 								<br>
 							</p>
 							<p class="text-center">
-								<a class="btn" href="http://www.robots.ox.ac.uk/%7Ebob/software/index.html">Download</a>
+								<a class="btn" href="https://www.robots.ox.ac.uk/%7Ebob/software/index.html">Download</a>
 							</p>
 						</div>
 					</div>
@@ -139,7 +158,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<h3 id="egoxproject" class="uppercase color-primary mb40 mb-xs-24">egoXproject</h3>
+							<h2 id="egoxproject" class="bold color-primary mb40 mb-xs-24">egoXproject</h2>
 							<p class="lead">
 								A Unity plugin for managing and modifying Xcode projects. It modifies iOS and tvOS Xcode projects automatically, allowing you to:
 							</p>
@@ -178,7 +197,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<h3 id="tapplay" class="uppercase color-primary mb40 mb-xs-24">TapPlay</h3>
+							<h2 id="tapplay" class="bold color-primary mb40 mb-xs-24">TapPlay</h2>
 							<p class="lead">
 								Tap Play was a gesture controlled music app for iOS. It allowed the user to customize various swipes, taps and holds to control playback of music, audiobooks and podcasts.
 							</p>
@@ -189,7 +208,7 @@
 				<div class="container">
 					<div class="row v-align-children">
 						<div class="col-md-7 col-sm-6 mb-xs-24 text-center">
-							<img src="img/tapplay.jpg" alt="Tap Play Screenshot">
+							<img src="/img/tapplay.jpg" alt="Tap Play Screenshot">
 						</div>
 					</div>
 				</div>
@@ -199,7 +218,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<h3 id="airlcd" class="uppercase color-primary mb40 mb-xs-24">airLCD</h3>
+							<h2 id="airlcd" class="bold color-primary mb40 mb-xs-24">airLCD</h2>
 							<p class="lead">
 								airLCD is a front end for Amarok that allows the user to:
 							</p>
@@ -210,7 +229,7 @@
 								<li>view the current playlist and select which track to play.</li>
 							</ul>
 							<p class="text-center">
-								<a class="btn" href="http://airlcd.sourceforge.net/">Download</a>
+								<a class="btn" href="https://airlcd.sourceforge.net/">Download</a>
 							</p>
 						</div>
 					</div>
@@ -220,20 +239,20 @@
 			<footer class="footer-2 bg-dark text-center-xs">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
-							<a href="#"><img class="image-xxs fade-half" alt="Pic" src="img/logo-light.png"></a>
+						<div class="col-sm-3">
+							<a href="/"><img class="image-xxs fade-half" alt="Home" src="/img/logo-light.png"></a>
 						</div>
 					
-						<div class="col-sm-4 text-center">
+						<div class="col-sm-6 text-center">
 							<span class="fade-half">
 								© Copyright 2026 Robert Castle - All Rights Reserved
 							</span>
 						</div>
-					
-						<div class="col-sm-4 text-right text-center-xs">
+
+						<div class="col-sm-3 text-right text-center-xs">
 							<ul class="list-inline social-list">
-								<li><a href="https://github.com/robertcastle" target="_self"><i class="fa fa-github-square"></i></a></li>
-								<li class="vpf"><a href="https://www.linkedin.com/in/drrobertcastle/" target="_self"><i class="fa fa-linkedin-square"></i></a></li>
+								<li><a href="https://github.com/robertcastle" rel="me" target="_self" aria-label="Robert Castle on GitHub"><i class="fa fa-github-square"></i></a></li>
+								<li class="vpf"><a href="https://www.linkedin.com/in/drrobertcastle/" rel="me" target="_self" aria-label="Robert Castle on LinkedIn"><i class="fa fa-linkedin-square"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -241,8 +260,8 @@
 			</footer>
 		</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/scripts.js"></script>
 	</body>
 </html>
