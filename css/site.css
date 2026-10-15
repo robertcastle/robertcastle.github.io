@@ -1659,9 +1659,6 @@ blockquote {
   border-color: #fc4f4f;
 }
 @media all and (max-width: 767px) {
-  br {
-    display: none;
-  }
   blockquote {
     font-size: 16px;
     line-height: 32px;
